@@ -236,6 +236,14 @@ var graphNet = {
     for(var idx in graphNet.edgesData) {
       if(graphNet.edgesData[idx].from == node.id) {
         var nodeTo = graphNet.getNode(graphNet.edgesData[idx].to);
+        if(nodeTo == null) {
+          log("nodeTo ID: ")
+          log(graphNet.edgesData[idx].to)
+        }
+        if(node.level == null) {
+          log("node: ")
+          log(node)
+        }
         if(nodeTo.level <= node.level) {
           if(graphNet.edges.get(graphNet.edgesData[idx].id) == null) {
             graphNet.edges.add(graphNet.edgesData[idx]);

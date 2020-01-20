@@ -35,7 +35,7 @@ var bd_TI = {
     { id: 16, nome: "Estruturas de Dados", cursos: [ "TI@BCC", "ENG@ECOMP" ] },
     { id: 17, nome: "Teoria da Computação\ne Análise de Algoritmos", cursos: [ "TI@BCC" ] },
     { id: 18, nome: "Arquiteturas Empresariais", cursos: [ "TI@BSI", "TI@TGTI" ] },
-    { id: 19, nome: "Direito Digital", cursos: [ "TI@BSI", "TI@TGTI", "TI@TRC", "TI@TSI", "TI@TDC" ] },
+    { id: 19, nome: "Direito Digital", cursos: [ "TI@BSI", "TI@TGTI", "TI@TRC", "TI@TSI", "TI@TDC", "CJ@DIR" ] },
     { id: 20, nome: "Engenharia de Dados", cursos: [ "TI@TBD" ] },
     { id: 21, nome: "Administração de Dados", cursos: [ "TI@TBD" ] },
     { id: 22, nome: "Gerência e\nSegurança de Redes", cursos: [ "TI@TRC", "TI@TSI", "TI@TDC"] },

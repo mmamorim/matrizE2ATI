@@ -21,9 +21,7 @@ function buildAreaNode(bd, bgColor, bgColorH, borderColor, borderColorH, fontCol
     font: { multi: true, color: bd.fontColor, size: 15, face: 'Raleway' }
   });
   v_edges.push({ from: bd.idArea, to: 'raiz', id: 'e_raiz'+bd.idArea, color:{color:'white'} });
-  if(bgColor == null) {
-    buildCursos(bd);
-  }
+  buildCursos(bd);
 }
 
 buildAreaNode(bd_TI);
@@ -38,6 +36,7 @@ buildAreaNode(bd_CAMA);
 buildAreaNode(bd_TH);
 
 function buildCursos(bd) {
+  log("criando cursos para Área: "+bd.nomeArea);
   var tnode_Curso = {
     type: "Área", shape: "box", size: 15, level: 2, open: true, mass: 3,
     color: { background: bd.bgColor, border: bd.borderColor, highlight: { background: bd.bgColorH, border: bd.borderColorH } },
@@ -60,9 +59,12 @@ function buildCursos(bd) {
     var node = Object.assign({}, tnode_UC);
     node.id = bd.idArea+'@'+bd.UCs[i].id;
     node.label = '<b>UC</b>\n'+bd.UCs[i].nome;
+    log("criando Aresta: ");
+    log(node);
     v_nodes.push(node);
     for(var k=0; k < bd.UCs[i].cursos.length; k++) {
-      v_edges.push({ from: node.id, to: bd.UCs[i].cursos[k], id: bd.idArea+'@'+bd.cursos[k].id+'@'+bd.UCs[i].id+'_'+k, color:{color:'white'} });
+      log(bd.idArea+'@'+bd.UCs[i].cursos[k]+'@')
+      v_edges.push({ from: node.id, to: bd.UCs[i].cursos[k], id: bd.idArea+'@'+bd.UCs[i].cursos[k]+'@'+bd.UCs[i].id+'_'+k, color:{color:'white'} });
     }
   }
 }

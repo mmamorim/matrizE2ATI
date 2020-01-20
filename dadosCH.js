@@ -10,6 +10,8 @@ var bd_CH = {
     { id: "HIST", nome: "História" },
     { id: "FIL", nome: "Filosofia" },
     { id: "LET", nome: "Letras Português Inglês" },
+    { id: "BPS", nome: "Psicologia" },
+
   ],
   UCs: [
     { id: 1, nome: "Inclusão e LIBRAS", cursos: [ "CH@PED", "CH@MAT", "CH@HIST", "CH@FIL", "CH@LET", "CBS@CBI", "CBS@CBIB", "CBS@EDF", "CBS@EDFB" ] },

@@ -17,6 +17,8 @@ var bd_CBS = {
     { id: "NUT", nome: "Nutrição" },
     { id: "ODO", nome: "Odontologia" },
     { id: "PSI", nome: "Psiciologia" },
+    { id: "THOS", nome: "CST Gestão Hospitalar" },
+
   ],
   UCs: [
 

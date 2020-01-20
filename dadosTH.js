@@ -6,7 +6,8 @@ var bd_TH = {
   bgColorH: 'rgba(218, 228, 30, 0.7)', borderColorH: '#d1c8ec',
   cursos: [
 
-    { id: "DIR", nome: "Direito" },
+    { id: "BTUR", nome: "Turismo" },
+    { id: "TTUR", nome: "Gestão Turismo" },
 
   ],
   UCs: [

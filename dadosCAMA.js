@@ -10,6 +10,8 @@ var bd_CAMA = {
     { id: "AGRO", nome: "Agronomia" },
     { id: "GEO", nome: "Geologia" },
     { id: "ZOO", nome: "Zootecnia" },
+    { id: "TAGR", nome: "CST Gestão Agronegócio" },
+    { id: "TAMB", nome: "CST Gestão Ambiental" },
 
   ],
   UCs: [

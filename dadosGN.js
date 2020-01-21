@@ -43,8 +43,6 @@ var bd_GN = {
   ],
   UCs: [
 
-    { id: 1, nome: "", cursos: [ ] },
-
     { id: 1, nome: "Estudos Organizacionais", cursos: [
       "CAMA@TAMB", "CAMA@TAGR", "GN@BRP", "GN@BADC", "GN@BADM", "GN@BADP", "GN@BCE", "GN@BCC", "GN@TCEX", "GN@TCOM",
       "GN@TQUA", "GN@TCOO", "GN@TRH", "GN@TFIN", "GN@TPOR", "GN@TPUB", "GN@TLOG", "GN@TMKT", "GN@TNIM", "GN@TPGE", "GN@TSEC",

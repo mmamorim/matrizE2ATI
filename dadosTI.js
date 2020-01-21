@@ -28,7 +28,7 @@ var bd_TI = {
     { id: 9, nome: "Governança e\nServiços de TI", cursos: [ "TI@BSI", "TI@TGTI", "TI@TSI" ] },
     { id: 10, nome: "Modelos, Métodos e\nTécnicas da Engenharia de Software", cursos: [ "TI@BCC", "TI@BSI", "TI@TADS", "ENG@ECOMP" ] },
     { id: 11, nome: "Qualidade de Software", cursos: [ "TI@BCC", "TI@BSI", "TI@TADS" ] },
-    { id: 12, nome: "Análise de Dados\ne Big Data", cursos: [ "TI@BCC", "TI@BSI", "TI@TBD", "CA@PP", "CA@JO", "CA@RP", "CA@PM" ] },
+    { id: 12, nome: "Análise de Dados\ne Big Data", cursos: [ "TI@BCC", "TI@BSI", "TI@TBD", "CA@PP", "CA@JO", "CA@RP", "CA@PM", "TH@GAS" ] },
     { id: 13, nome: "Inteligência Artificial", cursos: [ "TI@BCC", "TI@BSI", "TI@TBD", "TI@TDC" ] },
     { id: 14, nome: "Computação Gráfica\ne Sistemas Embarcados", cursos: [ "TI@BCC", "ENG@ECOMP" ] },
     { id: 15, nome: "Linguagens Formais,\nAutômatos e Compiladores", cursos: [ "TI@BCC", "ENG@ECOMP" ] },
